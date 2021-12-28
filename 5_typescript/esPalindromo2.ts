@@ -1,4 +1,4 @@
-export function esPalindromo(palabra: string) {
+export function esPalindromo2(palabra: string) {
   let izquierda = 0;
   let derecha = palabra.length - 1;
   while (izquierda < derecha) {
@@ -10,5 +10,5 @@ export function esPalindromo(palabra: string) {
   return true;
 }
 
-console.log(esPalindromo("mex"));
-console.log(esPalindromo("Lol"));
+console.log(esPalindromo2("mex"));
+console.log(esPalindromo2("Lol"));

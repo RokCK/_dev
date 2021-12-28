@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
-exports.esPalindromo = void 0;
-function esPalindromo(palabra) {
+exports.esPalindromo2 = void 0;
+function esPalindromo2(palabra) {
     var izquierda = 0;
     var derecha = palabra.length - 1;
     while (izquierda < derecha) {
@@ -12,6 +12,6 @@ function esPalindromo(palabra) {
     }
     return true;
 }
-exports.esPalindromo = esPalindromo;
-console.log(esPalindromo("mex"));
-console.log(esPalindromo("Lol"));
+exports.esPalindromo2 = esPalindromo2;
+console.log(esPalindromo2("mex"));
+console.log(esPalindromo2("Lol"));
